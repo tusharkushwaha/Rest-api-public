@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+#title{
+    font-family: 'Catamaran', sans-serif;
+    color: white;
+    background-image: url("svgback.svg");
+    height: 99vh;
+    margin-bottom: 10vh;
+
+}
+#title>div{
+    line-height: 5rem;
+    padding: 18vh 0 0 0;
+    text-align: center;
+    font-size: 6rem;
+}
+#title>span{
+    text-align: center;
+    display: block;
+    padding: 4vh 2vw 0 2vw;
+    font-size: 2rem;
+}
+.request{
+    padding: 12vh 0;
+}
+.request>span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.request>span>input{
+    text-align: center;
+    width: 94%;
+    margin: 2vh 0;
+}
+.requesttitle{
+    padding-top: 7vh;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-align: center;
+    font-size: 4rem;
+}
+#footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("svgback.svg");
+    padding: 20vh 0 2vh 0vw;
+}
+a{
+    color: rgb(255, 255, 255) !important;
+    padding: 0vh 0.2vw;
+}
